@@ -65,6 +65,10 @@ h1 {
   margin: 0 10% 0 10%;
 }
 
+.mini-container-text {
+  text-align: center;
+}
+
 .email-form {
   display: flex;
   width: 100%;
