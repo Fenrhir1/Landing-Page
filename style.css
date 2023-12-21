@@ -33,6 +33,7 @@ header {
   box-shadow: none;
   background-color: transparent;
   color: #839eaf;
+  border-radius: 3%;
 }
 
 .link-list {
