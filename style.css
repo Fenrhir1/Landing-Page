@@ -27,8 +27,9 @@ header {
 }
 
 .header-btn {
-  height: 50%;
-  width: 15%;
+  height: 64px;
+  width: 268px;
+  min-width: 100px;
   border-color: #839eaf;
   box-shadow: none;
   background-color: transparent;
@@ -46,6 +47,11 @@ header {
   margin-right: 5%;
   font-family: sans-serif;
   font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
 }
 
 .container {
@@ -91,4 +97,30 @@ h1 {
 .subscribe {
   height: 100%;
   width: 12%;
+}
+
+@media screen and (max-width: 710px) {
+  .header-btn {
+    display: none;
+  }
+
+  .link-list {
+    width: 66vw;
+  }
+
+  .header-text {
+    margin-right: 14%;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .link-list {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .subscribe {
+    max-width: 316px;
+  }
 }
