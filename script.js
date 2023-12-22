@@ -10,6 +10,7 @@ function onButtonSubscribe() {
     alert("Please enter your email address!");
   } else containerDisplay.style.display = "none";
   hiddenSubscribe.style.display = "flex";
+  hiddenSubscribe.classList.add("slide-top");
 }
 
 function onButtonReturn() {
